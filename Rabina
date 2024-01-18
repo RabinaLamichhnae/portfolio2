@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rabina Lamichhane - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        h1, h2 {
+            margin-bottom: 10px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .skills {
+            margin-top: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 24px;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Rabina Lamichhane</h1>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            Welcome to my portfolio! I am Rabina Lamichhane, and I am passionate about networking, security, cloud, and systems. I have gained valuable skills in these areas and continue to explore new technologies to enhance my knowledge.
+        </p>
+
+        <h2>Skills</h2>
+        <div class="skills">
+            <ul>
+                <li>Networking</li>
+                <li>Security</li>
+                <li>Cloud</li>
+                <li>Systems</li>
+            </ul>
+        </div>
+    </section>
+
+</body>
+</html>
